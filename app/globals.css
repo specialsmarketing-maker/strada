@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+:root {
+  --color-bg: #F4F2EC;
+  --color-gold: #9A8F6A;
+  --color-text: #1A1A1A;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+}
+
+p, span, a, li {
+  font-family: var(--font-sans);
+}
+
+/* Luxury smooth feel */
+* {
+  scroll-behavior: smooth;
+}
