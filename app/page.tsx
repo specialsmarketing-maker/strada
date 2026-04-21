@@ -257,7 +257,6 @@ function Navbar({ scrollY }: { scrollY: number }) {
                   minWidth: 220,
                   pointerEvents: menuOpen ? "auto" : "none",
                   opacity: menuOpen ? 1 : 0,
-                  transform: menuOpen ? "translateX(-50%) translateY(0)" : "translateX(-50%) translateY(-8px)",
                   transition: "opacity 0.25s cubic-bezier(0.22,1,0.36,1), transform 0.25s cubic-bezier(0.22,1,0.36,1)",
                   zIndex: 200,
                   overflow: "hidden",
